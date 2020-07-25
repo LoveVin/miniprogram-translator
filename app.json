@@ -1,0 +1,31 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/change/change",
+        "pages/history/history"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#ffaf3f",
+        "navigationBarTitleText": "萌柴翻译",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "position": "top",
+        "color": "#333",
+        "selectedColor": "#ffaf3f",
+        "borderStyle": "white",
+        "list": [
+          {
+            "pagePath": "pages/index/index",
+            "text": "翻译"
+          },
+          {
+            "pagePath": "pages/history/history",
+            "text": "历史"
+          }
+        ]
+      },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}
